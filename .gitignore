@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# local generated artifacts
+repomix-output.xml
+
+# local secrets
+.env
+.env.*
