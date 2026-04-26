@@ -15,8 +15,7 @@ public class DictationProcessingService {
     private final NoteFormatter formatter;
     private final NotePublisher publisher;
 
-    // Spring сам подставит нужные реализации через конструктор
-    public DictationProcessingService(AudioTranscriber transcriber, 
+    public DictationProcessingService(AudioTranscriber transcriber,
                                       NoteFormatter formatter, 
                                       NotePublisher publisher) {
         this.transcriber = transcriber;
